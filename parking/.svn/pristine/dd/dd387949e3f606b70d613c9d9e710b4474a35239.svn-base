@@ -1,0 +1,155 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #333333;
+}
+/*头部开始*/
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-size: cover;
+    background-color: #333333;
+    font-family: SimHei;
+    color: white;
+}
+.system-name {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+.system-name img {
+    position: absolute;
+    top: -14px;
+    left: -60px;
+    width: 70px;
+    height: 50px;
+}
+.system-name span {
+    font-size: 20px;
+    color: #fff;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+.system-name .main-title {
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    top: -15px;
+    left: 20px;
+}
+.head-user {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+.head-user img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.head-user span {
+    font-size: 15px;
+    color: #fff;
+    vertical-align: middle;
+}
+.head-user .head-logout {
+    cursor: pointer;
+}
+
+/*内容开始*/
+content {
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    background-color: #333333;
+}
+/*左边部分*/
+.content-left {
+    position: absolute;
+    top: 10px;
+    width: 230px;
+    bottom: 10px;
+    left: 10px;
+    background-color: #444444;
+}
+.parking-list{
+    width: 100%;
+    height: 100%;
+    background-color: #444444;
+}
+.parking-list li{
+    width: 228px;
+    height: 50px;
+    padding: 5px 0;
+    margin: 0 1px;
+}
+.parking-list .clicked{
+    background-color: #333333;
+}
+.parking-list img{
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+.parking-list span{
+    display: block;
+    line-height: 21px;
+}
+.parking-list .parking-desc{
+    display: inline-block;
+    width: 174px;
+    height: 46px;
+    overflow: hidden;
+    padding: 2px 0;
+}
+.parking-list .parking-name{
+    font-size: 15px;
+}
+/*右边部分*/
+.content-right {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #444444;
+}
+.right-select{
+    width: 100%;
+    height: 50px;
+}
+.right-select li{
+    display: inline-block;
+    width: 100px;
+    background-color: #444444;
+    text-align: center;
+}
+.right-select .clicked{
+    width: 150px;
+    height: 40px;
+    margin: 10px 30px -10px 10px;
+    background-color: #333333;
+}
+.right-select span{
+    font-size: 18px;
+    line-height: 40px;
+}
+.right-map{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    background-color: #fffae4;
+}

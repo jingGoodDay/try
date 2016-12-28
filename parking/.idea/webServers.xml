@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="918acea5-38c1-4a9d-8253-6298c3848ad2" name="activity" url="http://59.172.176.134">
+        <fileTransfer port="0" mountedRoot="E:\1武大\室内停车位" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
